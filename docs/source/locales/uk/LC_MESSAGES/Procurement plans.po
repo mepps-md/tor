@@ -1,0 +1,388 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mepps-md.tor 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-02-02 10:01+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/Procurement plans.rst:2
+msgid "Procurement plans"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:5
+msgid "A brief overview"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:7
+msgid ""
+"Upon the approval of budget / business plan of an organization, this "
+"structured data is entered into the system. The record on the planned "
+"procedure in the annual procurement plan is elaborated until the third digit"
+" of the CPV. Gradually, this data is further elaborated by the CA by "
+"introducing changes into the annual plan where the procurement item details "
+"are indicated."
+msgstr ""
+
+#: ../../source/Procurement plans.rst:11
+msgid "Plan creation"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:16 ../../source/Procurement plans.rst:74
+#: ../../source/Procurement plans.rst:98
+msgid "Field"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:16 ../../source/Procurement plans.rst:74
+#: ../../source/Procurement plans.rst:98
+msgid "Description"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:18
+msgid "procuringEntity:identifier:scheme*"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:18
+msgid "Identification scheme according to"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:20
+msgid "procuringEntity:identifier:id*"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:20
+msgid "CA code in the chosen identification scheme"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:22
+msgid "procuringEntity:name*"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:22
+msgid "CA name"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:24
+msgid "procuringEntity:identifier:legalName*"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:24
+msgid "CA full name"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:26
+msgid "budget:year"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:26
+msgid "Year"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:28
+msgid "budget:project:id**"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:28 ../../source/Procurement plans.rst:30
+msgid "Project code"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:30
+msgid "budget:project:name**"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:32
+msgid "budget:id"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:32
+msgid "Procurement plan number"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:34 ../../source/Procurement
+#: plans.rst:108
+msgid "budget:description"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:34 ../../source/Procurement plans.rst:76
+msgid "Procurement item name"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:36
+msgid "budget:source of financing.id"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:36
+msgid "Source of finance according to"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:38
+msgid "budget:source of financing.name"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:38
+msgid "Source of finance title according to"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:40
+msgid "budget:notes"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:40
+msgid "Remarks"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:42
+msgid "budget:amount**"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:42
+msgid "Expected procurement price with VAT"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:44
+msgid "budget:currency"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:44
+msgid "Currency according to"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:46
+msgid "budget:amountNet"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:46
+msgid "Expected price without VAT"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:48 ../../source/Procurement
+#: plans.rst:112
+msgid "tender:tenderPeriod:startDate"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:48
+msgid "e.g. March, 2016"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:50
+msgid "tender:procurementMethod*"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:50
+msgid "All procedure types (open, limited)"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:52
+msgid "tender:procurementMethodType"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:52
+msgid "Procedure type"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:54 ../../source/Procurement
+#: plans.rst:116
+msgid "classification:scheme"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:54 ../../source/Procurement plans.rst:86
+msgid "CPV according to"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:56 ../../source/Procurement
+#: plans.rst:118
+msgid "classification:id"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:56
+msgid "CPV classification code"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:58 ../../source/Procurement
+#: plans.rst:120
+msgid "classification:description"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:58 ../../source/Procurement plans.rst:90
+msgid "CPV classification code name"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:60
+msgid "id*"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:60 ../../source/Procurement plans.rst:62
+msgid "Procurement plan identificator"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:62
+msgid "planID*"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:65
+msgid "*Filled out automatically"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:67
+msgid "**Should be hidden in the platform’s interface"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:69
+msgid ""
+"Introducing procurement plan details, the CA enters the following data (1n "
+"of records):"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:76 ../../source/Procurement
+#: plans.rst:122
+msgid "items[*]:description"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:78 ../../source/Procurement
+#: plans.rst:124
+msgid "items[*]:quantity"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:78
+msgid "Amount/volume of goods/work assignment/services provision"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:80 ../../source/Procurement
+#: plans.rst:126
+msgid "items[*]:unit:code"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:80 ../../source/Procurement plans.rst:82
+msgid "Measurement unit code according to"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:82 ../../source/Procurement
+#: plans.rst:128
+msgid "items[*]:unit:name"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:84
+msgid "items[*]:deliveryDate:endDate"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:84
+msgid ""
+"End time of goods delivery/work assignments execution/services provision"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:86 ../../source/Procurement
+#: plans.rst:130
+msgid "items[*]:classification:scheme"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:88 ../../source/Procurement
+#: plans.rst:132
+msgid "items[*]:classification:id"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:88
+msgid "CPV classification code which defines the procurement item"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:90 ../../source/Procurement
+#: plans.rst:134
+msgid "items[*]:classification:description"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:93
+msgid "Validations executed on the CDB level:"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:100
+msgid "procuringEntity:identifier:scheme"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:100
+msgid "Filled out with one of the codes from the IATI list"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:102
+msgid "procuringEntity:identifier:id"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:102 ../../source/Procurement
+#: plans.rst:104 ../../source/Procurement plans.rst:106
+#: ../../source/Procurement plans.rst:108 ../../source/Procurement
+#: plans.rst:110 ../../source/Procurement plans.rst:114
+msgid "Filled out"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:104
+msgid "procuringEntity:name"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:106
+msgid "procuringEntity:identifier:legalName"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:110
+msgid "budget:amount"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:112
+msgid "Planned date of procedure start"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:114
+msgid "tender:procurementMethod"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:116 ../../source/Procurement
+#: plans.rst:118 ../../source/Procurement plans.rst:120
+msgid "Filled out*"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:122 ../../source/Procurement
+#: plans.rst:124 ../../source/Procurement plans.rst:126
+#: ../../source/Procurement plans.rst:128 ../../source/Procurement
+#: plans.rst:130 ../../source/Procurement plans.rst:132
+#: ../../source/Procurement plans.rst:134
+msgid "Filled out if there is at least one item*"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:136
+msgid "items[*]:additionalClassifications[0]:scheme"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:136 ../../source/Procurement
+#: plans.rst:138 ../../source/Procurement plans.rst:140
+msgid "CPV"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:138
+msgid "items[*]:additionalClassifications[0]:id"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:140
+msgid "items[*]:additionalClassifications[0]:description"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:143
+msgid "*according to Guidebooks and classifiers"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:146
+msgid "Introducing changes into the plan"
+msgstr ""
+
+#: ../../source/Procurement plans.rst:148
+msgid ""
+"CA can add new or modify earlier entered articles of the plan, increase or "
+"decrease the existing articles, and introduce other changes into the plan."
+msgstr ""
+
+#: ../../source/Procurement plans.rst:150
+msgid ""
+"To delete an article of the plan, CA enters zero value into the Amount and "
+"Expected procurement value fields."
+msgstr ""

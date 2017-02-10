@@ -21,24 +21,19 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-   overview
-   authentication
-   errors
-   options
-   date-format
-   upload
-   tutorial
-   standard
-   tenders
-   procuringentity
-   bidding
-   qualification
-   performance
-   cluster
-   2pc
-   acceleration
+   legislativeframework
+   terms
+   meppsarchitecture
+   procurementplans
+   belowthresholdprocurements
+   tenderfields
+   report
+   complaint
+   agreements
+   statuses
+   grounds
    encryption
-   guidebooks
+   codebooks
    
    
 

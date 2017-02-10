@@ -1,0 +1,482 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mepps-md.tor 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-10 16:53+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/terms.rst:2
+msgid "Terms"
+msgstr ""
+
+#: ../../source/terms.rst:4
+msgid ""
+"**API** - a set of classes, procedures, functions, structures, and constants"
+" provided by an app (a library, a service) to be used in the external "
+"software products. API constitutes a part of the CDB which ensure "
+"interaction services of Electronic Platforms and the CDB."
+msgstr ""
+
+#: ../../source/terms.rst:6
+msgid ""
+"**Accreditation** - the provision to the CA the right to participate in the "
+"process of bids, offers, and works placement in the closed part of the "
+"Operator in accordance with the provisions set in the Regulations of bid and"
+" offer placement using the specialized Electronic Platform."
+msgstr ""
+
+#: ../../source/terms.rst:8
+msgid ""
+"**Administrator** - an Operator’s employee that has all the credentials "
+"foreseen by the Operator, including the accreditation of organizations on "
+"the Electronic Platform and access provision to the personal cabinet to "
+"other users of the Operator."
+msgstr ""
+
+#: ../../source/terms.rst:10
+msgid ""
+"**Annual plan** contains information on the planned procurements by the CA "
+"and is published within the period of fifteen days from the moment of its "
+"approval and five days within its modification date."
+msgstr ""
+
+#: ../../source/terms.rst:12
+msgid ""
+"**Authorized Electronic Platform authorized by the Responsible Body/Relevant"
+" Authority** - an information and telecommunication system, which is a part "
+"of the electronic procurement system and ensures registration of persons, "
+"automatic publication, receival and transfer of information and documents "
+"over the course of electronic procurement procedures, usage of services with"
+" automatic information exchange. Platforms are remote components of the "
+"system which interact with the CDB with the help of/via API."
+msgstr ""
+
+#: ../../source/terms.rst:14
+msgid "**Authorized body** - Public Procuring Agency (thereinafter PPA)."
+msgstr ""
+
+#: ../../source/terms.rst:16
+msgid ""
+"**Below threshold procurements** - procurements with the expected price of "
+"the procurement item of less than LEI 80,000 for goods and services and LEI "
+"100,000 for works."
+msgstr ""
+
+#: ../../source/terms.rst:18
+msgid ""
+"**Candidate** - a participant of the Electronic reverse auction which made "
+"the lowest bid among the participants who passed the qualification stage or "
+"whose application has not yet been reviewed."
+msgstr ""
+
+#: ../../source/terms.rst:20
+msgid ""
+"**Catalogue** - a logical object containing a set of attributes securing "
+"storage of catalogue and reference intervals of attributes CDB objects.The "
+"catalogue is characterized by a relatively constant set of attributes and "
+"their values which allow to control and unify the values of attributes of "
+"the CDB objects. The catalogue is the prototype of the physical "
+"implementation of the system database."
+msgstr ""
+
+#: ../../source/terms.rst:22
+msgid ""
+"**Central Database** (thereinafter CDB) - a system’s component which "
+"contains a centralized database as a part of storage objects and system’s "
+"data processing, API which ensure interaction between the electronic "
+"platforms, Auction service and Administrator’s service."
+msgstr ""
+
+#: ../../source/terms.rst:24
+msgid ""
+"**Changes to the annual procurement plan** - introduction of the respective "
+"changes to the planned procurements of the CA."
+msgstr ""
+
+#: ../../source/terms.rst:26
+msgid ""
+"**Complainant** - any registered system user (excluding CAs) willing to "
+"submit a demand or a complaint on procurement requirements, or a Tenderer "
+"willing to submit a demand or a complaint on the qualification decision of "
+"the CA."
+msgstr ""
+
+#: ../../source/terms.rst:28
+msgid ""
+"**Common Procurement Vocabulary** (thereinafter CPV) -  the Common "
+"Procurement Vocabulary as adopted by the Regulation (EC) No 2195/2002."
+msgstr ""
+
+#: ../../source/terms.rst:30
+msgid ""
+"**Review Commission for below threshold procurements** - a body established "
+"by non-governmental organizations that are legally entitled to issue only "
+"recommendations to the CA."
+msgstr ""
+
+#: ../../source/terms.rst:32
+msgid ""
+"**Role** -  a characteristic of the user of the system which defines a set "
+"of functions which a User is obliged to / can execute while working with the"
+" electronic procurement system."
+msgstr ""
+
+#: ../../source/terms.rst:34
+msgid ""
+"**Database Object. Operational Data Store Object** - a logical object that "
+"reflects the system object (process) in the CDB. It contains a number of "
+"attributes which characterize the system object, storage rules, restriction "
+"in relation to the other objects. Database Object - a prototype of the "
+"physical realization object of the system’s database. Database Object is "
+"characterized by a constant increase in number and change in attribute "
+"values - operational data change."
+msgstr ""
+
+#: ../../source/terms.rst:36
+msgid ""
+"**Electronic reverse auction** (thereinafter E-Auction) - a procedure of "
+"identifying a Candidate with the lowest bid-offer, during the which "
+"participants can change the bid price making a bid in every round."
+msgstr ""
+
+#: ../../source/terms.rst:38
+msgid ""
+"**Economic operator** (thereinafter EO) - any person, public entity, or "
+"group of such persons and entities, including any temporary association of "
+"undertakings, which offers the execution of work, the provision of services,"
+" or the supply of products on the market."
+msgstr ""
+
+#: ../../source/terms.rst:40
+msgid ""
+"**Notice to remove violations, notice** - an official appeal to the CA with "
+"the demand to remove violations."
+msgstr ""
+
+#: ../../source/terms.rst:42
+msgid ""
+"**Notice to remove violations** - an appeal submitted to the CA by a "
+"potential tenderer on elimination of violations in the procurement "
+"requirements."
+msgstr ""
+
+#: ../../source/terms.rst:44
+msgid ""
+"**Observer** - a user’s role in the System which gives viewer rights, "
+"without a right to initiate Procurement or participate in the Procurement "
+"Process as a participant."
+msgstr ""
+
+#: ../../source/terms.rst:46
+msgid ""
+"**Offer price** - the price suggested by the supplier. An agreement with the"
+" winner of the procedure has to be signed at this price."
+msgstr ""
+
+#: ../../source/terms.rst:48
+msgid ""
+"**Personal cabinet** - a part of the electronic platform accessible only to "
+"the registered users of the respective authorized electronic platform."
+msgstr ""
+
+#: ../../source/terms.rst:50
+msgid ""
+"**Contracting Authority** (thereinafter CA): a state body, organization, "
+"institution or other direct or indirect budget user according to the law "
+"regulating the budget system, as well as an organization ; a legal entity "
+"established by a direct or indirect budget user with a specific interest of "
+"meeting needs in the general interest, having a management board more than a"
+" half members of which are budget users representatives or where more  than "
+"half of the votes in the management board belong to budget users "
+"representatives; a public undertaking or an undertaking established by a "
+"public undertaking wherein a direct or indirect budget user, that is, "
+"another procuring entity, pursuant to the Law owns more than 50% of shares."
+msgstr ""
+
+#: ../../source/terms.rst:55
+msgid ""
+"**Public procurement** - the provision of goods and services or awarding of "
+"work assignments by a state body, organization, institution or some other "
+"legal person regarded as a procuring entity pursuant to the Law on Public "
+"Procurement no. 131 (PPL no. 131) dated 3 July 2015, amended on 3 July and 3"
+" October 2016 in the manner and under conditions prescribed by this Law."
+msgstr ""
+
+#: ../../source/terms.rst:57
+msgid ""
+"**Public procurement contract** - the contract concluded following the "
+"procedure prescribed by this Law between a procuring entity and a goods "
+"supplier, service provider or work contractor, concerning the procurement of"
+" goods, provision of services or performance of work assignments."
+msgstr ""
+
+#: ../../source/terms.rst:59
+msgid ""
+"**Suggested price** - the price suggested by the EO. This price should be "
+"indicated in the agreement with the winner of the procedure."
+msgstr ""
+
+#: ../../source/terms.rst:61
+msgid ""
+"**Qualification documents** - statute, financial, other documents, "
+"certificates, copies, as well as records/statements certified by the "
+"Authorized Body which the CA has the right to demand from a participant in "
+"accordance with the current legislature. Participant shall be obliged upon "
+"the CA’s request to present the required documents as a part of its bid."
+msgstr ""
+
+#: ../../source/terms.rst:63
+msgid ""
+"**Qualification** - a stage of the process in the framework of which CA has "
+"the right to demand qualification documents from the considered candidate. "
+"Candidate has the right to provide qualification documents."
+msgstr ""
+
+#: ../../source/terms.rst:65
+msgid ""
+"**Role**- a feature of the system user which sets out a number of functions "
+"which a User is obliged to/can execute working in the electronic public "
+"procurement system."
+msgstr ""
+
+#: ../../source/terms.rst:67
+msgid ""
+"**Request** - a demand to eliminate violations that can be escalated "
+"(provided the dispute between the complainant and the CA cannot be settled) "
+"to the Review Commission."
+msgstr ""
+
+#: ../../source/terms.rst:69
+msgid ""
+"**Tenderer** - a domestic or foreign legal or natural person offering to "
+"supply goods, provide services, or perform work assignments."
+msgstr ""
+
+#: ../../source/terms.rst:71
+msgid ""
+"**Tender offer** - an offer regarding a subject of purchase which "
+"participant provides to CA in accordance with the requirements set in tender"
+" documentation."
+msgstr ""
+
+#: ../../source/terms.rst:73
+msgid ""
+"**Tender documentations** - the documentation regarding the public "
+"procurement conditions which is developed and certified by the CA and is "
+"published to be freely accessed."
+msgstr ""
+
+#: ../../source/terms.rst:75
+msgid ""
+"**Winner** - a participant whose tender offer is in compliance with all the "
+"criteria and requirements set in the tender documentation, and recognized as"
+" the most cost-effective, and whom CA has notified of his/her intentions to "
+"sign the contract."
+msgstr ""
+
+#~ msgid ""
+#~ "Authorized Electronic Platform authorized by the Responsible Body/Relevant "
+#~ "Authority - an information and telecommunication system, which is a part of "
+#~ "the electronic procurement system and ensures registration of persons, "
+#~ "automatic publication, receival and transfer of information and documents "
+#~ "over the course of electronic procurement procedures, usage of services with"
+#~ " automatic information exchange. Platforms are remote components of the "
+#~ "system which interact with the CDB with the help of/via API."
+#~ msgstr ""
+
+#~ msgid "Authorized body - Public Procuring Agency (thereinafter PPA)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Below threshold procurements - procurements with the expected price of the "
+#~ "procurement item of less than LEI 80,000 for goods and services and LEI "
+#~ "100,000 for works."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Candidate - a participant of the Electronic reverse auction which made the "
+#~ "lowest bid among the participants who passed the qualification stage or "
+#~ "whose application has not yet been reviewed."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Catalogue - a logical object containing a set of attributes securing storage"
+#~ " of catalogue and reference intervals of attributes CDB objects.The "
+#~ "catalogue is characterized by a relatively constant set of attributes and "
+#~ "their values which allow to control and unify the values of attributes of "
+#~ "the CDB objects. The catalogue is the prototype of the physical "
+#~ "implementation of the system database."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Central Database (thereinafter CDB) - a system’s component which contains a "
+#~ "centralized database as a part of storage objects and system’s data "
+#~ "processing, API which ensure interaction between the electronic platforms, "
+#~ "Auction service and Administrator’s service."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Changes to the annual procurement plan - introduction of the respective "
+#~ "changes to the planned procurements of the CA."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Complainant - any registered system user (excluding CAs) willing to submit a"
+#~ " demand or a complaint on procurement requirements, or a Tenderer willing to"
+#~ " submit a demand or a complaint on the qualification decision of the CA."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Common Procurement Vocabulary (thereinafter CPV) -  the Common Procurement "
+#~ "Vocabulary as adopted by the Regulation (EC) No 2195/2002."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Review Commission for below threshold procurements - a body established by "
+#~ "non-governmental organizations that are legally entitled to issue only "
+#~ "recommendations to the CA."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Role -  a characteristic of the user of the system which defines a set of "
+#~ "functions which a User is obliged to / can execute while working with the "
+#~ "electronic procurement system."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Database Object. Operational Data Store Object - a logical object that "
+#~ "reflects the system object (process) in the CDB. It contains a number of "
+#~ "attributes which characterize the system object, storage rules, restriction "
+#~ "in relation to the other objects. Database Object - a prototype of the "
+#~ "physical realization object of the system’s database. Database Object is "
+#~ "characterized by a constant increase in number and change in attribute "
+#~ "values - operational data change."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Electronic reverse auction (thereinafter E-Auction) - a procedure of "
+#~ "identifying a Candidate with the lowest bid-offer, during the which "
+#~ "participants can change the bid price making a bid in every round."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Economic operator (thereinafter EO) - any person, public entity, or group of"
+#~ " such persons and entities, including any temporary association of "
+#~ "undertakings, which offers the execution of work, the provision of services,"
+#~ " or the supply of products on the market."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Notice to remove violations, notice - an official appeal to the CA with the "
+#~ "demand to remove violations."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Notice to remove violations - an appeal submitted to the CA by a potential "
+#~ "tenderer on elimination of violations in the procurement requirements."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Observer - a user’s role in the System which gives viewer rights, without a "
+#~ "right to initiate Procurement or participate in the Procurement Process as a"
+#~ " participant."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Offer price - the price suggested by the supplier. An agreement with the "
+#~ "winner of the procedure has to be signed at this price."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Personal cabinet - a part of the electronic platform accessible only to the "
+#~ "registered users of the respective authorized electronic platform."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Contracting Authority (thereinafter CA): a state body, organization, "
+#~ "institution or other direct or indirect budget user according to the law "
+#~ "regulating the budget system, as well as an organization ; a legal entity "
+#~ "established by a direct or indirect budget user with a specific interest of "
+#~ "meeting needs in the general interest, having a management board more than a"
+#~ " half members of which are budget users representatives or where more  than "
+#~ "half of the votes in the management board belong to budget users "
+#~ "representatives; a public undertaking or an undertaking established by a "
+#~ "public undertaking wherein a direct or indirect budget user, that is, "
+#~ "another procuring entity, pursuant to the Law owns more than 50% of shares."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Public procurement - the provision of goods and services or awarding of work"
+#~ " assignments by a state body, organization, institution or some other legal "
+#~ "person regarded as a procuring entity pursuant to the Law on Public "
+#~ "Procurement no. 131 (PPL no. 131) dated 3 July 2015, amended on 3 July and 3"
+#~ " October 2016 in the manner and under conditions prescribed by this Law."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Public procurement contract - the contract concluded following the procedure"
+#~ " prescribed by this Law between a procuring entity and a goods supplier, "
+#~ "service provider or work contractor, concerning the procurement of goods, "
+#~ "provision of services or performance of work assignments."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Suggested price - the price suggested by the EO. This price should be "
+#~ "indicated in the agreement with the winner of the procedure."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Qualification documents - statute, financial, other documents, certificates,"
+#~ " copies, as well as records/statements certified by the Authorized Body "
+#~ "which the CA has the right to demand from a participant in accordance with "
+#~ "the current legislature. Participant shall be obliged upon the CA’s request "
+#~ "to present the required documents as a part of its bid."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Qualification - a stage of the process in the framework of which CA has the "
+#~ "right to demand qualification documents from the considered candidate. "
+#~ "Candidate has the right to provide qualification documents."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Role- a feature of the system user which sets out a number of functions "
+#~ "which a User is obliged to/can execute working in the electronic public "
+#~ "procurement system."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Request - a demand to eliminate violations that can be escalated (provided "
+#~ "the dispute between the complainant and the CA cannot be settled) to the "
+#~ "Review Commission."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Tenderer - a domestic or foreign legal or natural person offering to supply "
+#~ "goods, provide services, or perform work assignments."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Tender offer - an offer regarding a subject of purchase which participant "
+#~ "provides to CA in accordance with the requirements set in tender "
+#~ "documentation."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Tender documentations - the documentation regarding the public procurement "
+#~ "conditions which is developed and certified by the CA and is published to be"
+#~ " freely accessed."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Winner - a participant whose tender offer is in compliance with all the "
+#~ "criteria and requirements set in the tender documentation, and recognized as"
+#~ " the most cost-effective, and whom CA has notified of his/her intentions to "
+#~ "sign the contract."
+#~ msgstr ""

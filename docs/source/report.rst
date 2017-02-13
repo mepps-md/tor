@@ -19,7 +19,7 @@ CA publishes the concluded agreement and enters information regarding the EO imm
 
 This information is published on the official website of the Authorized Body along with the platform’s website as a report on the concluded agreement. It is not possible to submit a complaint at this point.
 
-CA enters the following information on the procurement (automatically filled out fields are marked with*)
+CA enters the following information on the procurement 
 
 :title: 
    generalized procurement name

@@ -86,10 +86,10 @@ Plan creation
     CPV classification code name
 
 :id: 
-   procurement plan identificator, required
+    procurement plan identificator, required
 
 :planID: 
-   procurement plan identificator, required
+    procurement plan identificator, required
     
 Data entered by the CA introducing procurement plan details
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

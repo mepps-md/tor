@@ -5,7 +5,7 @@ Working with agreements
 
 Introducing changes into the agreement
 
-Once the tender is completed, a new document, ‘Contract’, is formed in the CDB that can be modified, while participants shall report on contract completion. This can be applied to receive the number of contracts:
+Once the tender is completed, a new document, ‘Contract’, is formed in the CDB that can be modified while participants shall report on contract completion. This can be applied to receive the number of contracts:
 
 GET / contracts to get the number of contracts
 

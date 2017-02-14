@@ -13,7 +13,7 @@ Below Threshold Procurements
 Below Threshold Appeals are sent to the Review Commission,  a body established by non-governmental organizations that are legally entitled to issue only recommendations to the CA.
 If simplified, the procedure looks like this: 
 
-In addition to the existing possibility to ask a question regarding a procurement, every registered user (but CAs) also can address the CA with a demand to eliminate a violation.
+In addition to the existing possibility to ask a question regarding a procurement, every registered user (but CAs) can also address the CA with a demand to eliminate a violation.
 
 CA has three days to review a Demand and make a decision concerning it. Within this period of time, CA shall reply to the Demand and (provided it is satisfied) introduce respective changes into procurement requirement or qualification decision. Providing an explanation regarding the decision is obligatory, simply selecting ‘satisfied’, ‘rejected’, ‘unsatisfied’ status is not enough.
 

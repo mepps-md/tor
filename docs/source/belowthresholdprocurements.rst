@@ -23,10 +23,6 @@ Peculiarities of a multi-lot tender
 
 PE can split the procurement into several lots preserving the first three CPV digits. Creating a procurement, the first lot is created automatically. Provided PE has not created any new lots, the procurement is then regarded as a single lot one. 
 
-The document structure is depicted below:
-
-:CHART:
-
 Lots can differ in goods or services quantity, estimated value, delivery place, procurement item (preserving the first three digits).
 
 An example of the data structure of a multi-lot tender:

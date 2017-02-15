@@ -53,7 +53,7 @@ If rationaleTypes: volumeCuts, itemPriceVariation, priceReduction, taxRate, thir
 
 If rationaleTypes: durationExtension, fiscalYearExtension were chosen:
 
-* ‘Agreement End Date’ contacts:period:endDate
+* ‘Agreement End Date’ contacts.period.endDate
 
 If rationaleTypes: volumeCuts was chosen:
 

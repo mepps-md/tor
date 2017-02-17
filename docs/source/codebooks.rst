@@ -1,4 +1,4 @@
-.. _codebooks:
+.. _rst_codebooks:
 
 Codebooks and classifiers
 ==========================
@@ -14,13 +14,13 @@ Common Procurement Vocabulary
 Calendar information
 --------------------
 
-Identification scheme according to the IATI standards
+Identification scheme according to the IATI standard
 
 The international list of agencies carrying out registration of organizations and their registers.
 
 * `Standard description <http://iatistandard.org/201/upgrades/decimal-upgrade-to-2-02/>`_
 
-* `Guidebooks in JSON format <http://standards.openprocurement.org/codelists/organization-identifier-scheme/en.json>`_
+* `Codebooks in JSON format <http://standards.openprocurement.org/codelists/organization-identifier-scheme/en.json>`_
 
 List of measurement units used
 ------------------------------
@@ -29,7 +29,7 @@ The International standard is used for determination of measurement units:
 
 * `UN/CEFACT standard description <http://opendata.org.ua/dataset/recommended-units-of-measure>`_
 
-* `Guidebook in JSON format <http://standards.openprocurement.org/codelists/organization-identifier-scheme/en.json>`_
+* `Codebook in JSON format <http://standards.openprocurement.org/codelists/organization-identifier-scheme/en.json>`_
 
 List of the currencies used
 ---------------------------
@@ -40,8 +40,8 @@ List of the currencies used
 
 * Dollar (USD)
 
-Codelist of Moldovan regions
-----------------------------
+Codelists of Moldovan regions
+-----------------------------
 
 * `RO <http://standards.openprocurement.org/codelists/organization-address-region/md/ro.json>`_
 
@@ -49,8 +49,8 @@ Codelist of Moldovan regions
 
 * `EN <http://standards.openprocurement.org/codelists/organization-address-region/md/en.json>`_
 
-Codelist of procedure types
----------------------------
+Codelists of procedure types
+----------------------------
 
 * `RO <http://standards.openprocurement.org/codelists/plan-tender-procurementMethodType/mepps/ro.json>`_
 

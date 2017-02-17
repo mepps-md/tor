@@ -19,7 +19,8 @@ GET / contracts / {cid} / documents / {did}? download = {key to receive one-time
          You can find an agreement by first searching the tender to which the agreement is linked or by filling out a separate search form with details (code or name) of the EO, agreement’s ID in the format MD-... or by the actual number of the agreement indicated in meta-information etc.
 
 The agreement contains links to the files attached that were uploaded by the CA prior to the completion of tender, meta-information about the agreement and a copy of items from the tender.
-To introduce changes, CA presses the button ‘Publish changes in the agreement’ on the platform. Such action creates a possibility to upload new files and new meta-information regarding the additional agreement.
+
+To introduce changes, CA presses the button ‘Publish changes in the agreement’ on the platform. Such an action creates a possibility to upload new files and meta-information regarding the additional agreement(s).
 
 CA fills out the following fields:
 
@@ -34,17 +35,19 @@ CA fills out the following fields:
 
 The following is executed to introduce changes in the CDB:
 
-PATCH / contracts / {cid} to change meta-information in the contract
 
-GET / contracts / {cid} / documents to receive all documents
+*PATCH / contracts / {cid}* to change meta-information in the contract
 
-POST / contracts / {cid} / documents to upload additional documents
+*GET / contracts / {cid} / documents* to receive all documents
 
-PATCH / contracts / {cid} / documents / {did } to change information regarding documents
+*POST / contracts / {cid} / documents* to upload additional documents
 
-PUT / contracts / {cid} / documents / {did} to upload new version of the document
+*PATCH / contracts / {cid} / documents / {did }* to change information regarding documents
 
-These changes go into the ‘changes’ envelope, the files attached - into the ‘documents’ envelop with a link to the ID of the respective change. Change status at this point: pending.
+*PUT / contracts / {cid} / documents / {did}* to upload new version of the document
+
+
+These changes go into the ‘changes’ envelope, the files attached - into the ‘documents’ envelop with a link to the ID of the respective change. Change status at this point: *pending*.
 
 For editing purposes, the following fields are displayed to CA, depending on the chosen rationaleTypes:
 If rationaleTypes: volumeCuts, itemPriceVariation, priceReduction, taxRate, thirdParty were chosen
@@ -61,12 +64,12 @@ If rationaleTypes: volumeCuts was chosen:
 
 Once there is status active, information cannot be updated. If needed, a user should register new Change.
 
-CA can update information on nomenclature (items) all the time beginning with automatic creation of the Contract document up until the Contract execution.
+CA can update information on nomenclature (items) all the time beginning with automatic creation of the Contract document and up until the Contract execution.
 
 Agreement termination
 ---------------------
 
-In case of termination, CA presses the button ‘Terminate the agreement’  on the platform.
+In case of termination, CA presses the button ‘Terminate the agreement’  on the platform site.
 
 CA fills out the following fields:
 
@@ -74,12 +77,12 @@ CA fills out the following fields:
    amount of money paid on the agreement, required
 
 :contracts.terminationDetails: 
-   reasons for agreement termination if it applies (free text)
+   reasons for agreement termination if applies (free text)
 
 CA can attach files.
 
 .. hint::
-         Prior to changing the agreement’s status, a user should be warned about the irreversibility of such an action. The optimal version is to display a banner warning that the agreement will be changed to the status ‘Agreement terminated’. A checkbox ‘I confirm’ can be displayed on the banner, empty by default, and inactive button ‘Continue’. Upon activation of this field, the ‘Continue’ button becomes active.
+         Prior to changing the agreement’s status, a user should be warned about the irreversibility of such an action. The optimum version is to display a banner warning that the agreement will be changed to the status ‘Agreement terminated’. A checkbox ‘*I confirm*’ can be displayed on the banner, empty by default, and inactive button ‘*Continue*’. Upon activation of this field, the ‘*Continue*’ button becomes active.
 
 At this point, no further actions on the agreement are made.
 

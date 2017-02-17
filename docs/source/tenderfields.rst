@@ -28,10 +28,10 @@ Procuring entity creates a tender on the Platform and fills out the following fi
    full entity name (for example - Ministry of Finance of Republic of Moldova), required
 
 :procuringEntity.identifier.scheme: 
-   MD-IDNO
+   MD-IDNO (according to :ref:`rst_codebooks`)
 
 :procuringEntity.identifier.id: 
-   IDNO
+   IDNO (according to :ref:`rst_codebooks`)
 
 :procuringEntity.contactPoint.name: 
    first and last name of the person responsible for the procurement procedure
@@ -52,7 +52,7 @@ Procuring entity creates a tender on the Platform and fills out the following fi
    postal code
 
 :procuringEntity.address.region: 
-   region
+   region according to :ref:`rst_codebooks`
 
 :procuringEntity.address.locality: 
    town/city
@@ -84,7 +84,7 @@ Procuring entity creates a tender on the Platform and fills out the following fi
    procurement’s nomenclature description
 
 :items.classification.scheme:
-   CPV name
+   CPV name according to :ref:`rst_codebooks`
 
 :items.classification.id: 
    CPV code which describes the procurement item
@@ -94,9 +94,10 @@ Procuring entity creates a tender on the Platform and fills out the following fi
 
 :items.unit.code: 
    measurement unit code  (has to go in line with the  UN/CEFACT standard, for example - KGM)
+   according to :ref:`rst_codebooks`
 
 :items.unit.name: 
-   measurement unit name in Romanian 
+   measurement unit name in Romanian according to :ref:`rst_codebooks`
 
 :items.quantity: 
    quantity
@@ -202,19 +203,19 @@ Checks that are performed on the CDB level:
    filled out
 
 :items.classification.scheme: 
-   filled out according to CPV
+   filled out according to :ref:`rst_codebooks`
 
 :items.classification.id: 
-   filled out according to CPV
+   filled out according to :ref:`rst_codebooks`
 
 :classification.description: 
-   filled out according to CPV
+   filled out according to :ref:`rst_codebooks`
 
 :items.unit.code: 
-   filled out according to 
+   filled out according to :ref:`rst_codebooks`
 
 :items.unit.name: 
-   filled out according to 
+   filled out according to :ref:`rst_codebooks` 
 
 :items.quantity: 
    filled out with numeric value
@@ -243,7 +244,7 @@ Having received and validated the document, the CDB automatically fills out the 
    ID (For example - 64fb59935cd5402691b1d1c43765a6ba)
 
 :tenderID: 
-   procurement ID (for example - MD-2016-01-14-000160-a)
+   procurement ID (for example - MD-2017-01-14-000160-a)
 
 :dateModified: 
    change date (publication)

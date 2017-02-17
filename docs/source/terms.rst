@@ -51,6 +51,7 @@ Terms
 **Personal cabinet** - a part of the electronic platform accessible only to the registered users of the respective authorized electronic platform.
 
 **Contracting Authority (thereinafter CA)**:
+
 * a state body, organization, institution or other direct or indirect budget user according to the law regulating the budget system, as well as an organization ;
 * a legal entity established by a direct or indirect budget user with a specific interest of meeting needs in the general interest, having a management board more than a half members of which are budget users representatives or where more  than half of the votes in the management board belong to budget users representatives;
 * a public undertaking or an undertaking established by a public undertaking wherein a direct or indirect budget user, that is, another procuring entity, pursuant to the Law owns more than 50% of shares.

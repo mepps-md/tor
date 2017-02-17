@@ -3,7 +3,7 @@
 Below Threshold Procurements
 ============================
 
-Procedures not covered by PPL 131 (below 100.000 MDL - for work assignments and 80.000 MDL - for goods and services) are held in line with this procedure. The procurement process is carried out in the following sequence:
+Procedures not covered by PPL 131 (below 100.000 MDL - for work assignments - and 80.000 MDL - for goods and services) are held in line with this procedure. The procurement process is carried out in the following sequence:
 
 #. Clarify the procurement conditions
 #. Accept bids
@@ -14,11 +14,11 @@ Procedures not covered by PPL 131 (below 100.000 MDL - for work assignments and 
 Creating a tender
 -----------------
 
-Creating a tender, CA determines key fields of the yet-to-be announced procurement, uploads tender documentation, with  the requirements to the procurement object indicated, EO, expected procurement price, and other information related to the tender should be set out, as well as that which determines winner selection criteria:
+Creating a tender, CA determines key fields of the yet-to-be announced procurement, uploads tender documentation, with  the requirements to the procurement object indicated, EO, expected procurement price, and other information related to the tender, as well as that which determines winner selection criteria:
 
 * Price
 
-Peculiarities of a multi-lot tender
+Features of a multi-lot tender
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 PE can split the procurement into several lots preserving the first three CPV digits. Creating a procurement, the first lot is created automatically. Provided PE has not created any new lots, the procurement is then regarded as a single lot one. 
@@ -34,7 +34,7 @@ An example of the data structure of a multi-lot tender:
    lot remarks (other info PE sees as fit)
 
 :lots.title:
-   Generalized lot name
+   generalized lot name
 
 :lots.minimalStep.currency:
    by default the same as lots.value.currency, not displayed
@@ -52,7 +52,7 @@ An example of the data structure of a multi-lot tender:
    end date of the auction
 
 :lots.value.currency:
-   Currency (MDL,EUR,USD)
+   currency (MDL,EUR,USD)
 
 :lots.value.valueAddedTaxIncluded:
    false
@@ -86,13 +86,13 @@ CA can divide a procurement into separate elements, determining the required qua
    procurement object name
 
 :items.classification.scheme: 
-   CPV according to Common Procurement Vocabulary (CPV), not shown
+   CPV according to :ref:`rst_codebooks`, not shown
 
 :items.classification.description: 
-   CPV code which describes the procurement item
+   CPV code which describes the procurement item according to :ref:`rst_codebooks`
 
 :items.classification.id: 
-   classification code title in Romanian
+   classification code title in Romanian according to :ref:`rst_codebooks`
 
 :items.deliveryAddress.postalCode: 
    postal code
@@ -104,19 +104,19 @@ CA can divide a procurement into separate elements, determining the required qua
    street
 
 :items.deliveryAddress.region: 
-   region
+   region according to :ref:`rst_codebooks`
 
 :items.deliveryAddress.locality: 
-   town/city
+   town/city 
 
 :items.deliveryDate.endDate: 
    goods delivery time/execution time of works/ services provision time
 
 :items.unit.code: 
-   measurement unit code
+   measurement unit code according to :ref:`rst_codebooks`
 
 :items.unit.name:
-   measurement unit 
+   measurement unit according to :ref:`rst_codebooks`
 
 :items.quantity: 
    goods quantity or the scope of execution of works or services provision 
@@ -127,14 +127,14 @@ CA can divide a procurement into separate elements, determining the required qua
 Clarification period
 --------------------
 
-Clarification period is separately distinguished in the procurement procedure during the which participants can ask questions regarding the procurement requirements (participant qualification requirements or procurement object requirements), demand issue resolution, and submit a complaint, while procuring entities can provide answers to questions and introduce changes into the procurement conditions. The duration of the clarification period and offer submission is determined by a Procuring Entity. 
+Clarification period is separately distinguished in the procurement procedure during the which participants can ask questions regarding the procurement requirements (participant qualification requirements or procurement object requirements), demand issue resolution, and submit a complaint, while procuring entities can provide answers to questions and introduce changes into the procurement conditions. The duration of the clarification period and offer submission is determined by Procuring Entity. 
 
 Submission of offers
 --------------------
 
 Legal entities, sole entrepreneurs and natural persons (residents and non-residents).
 
-Once the clarification period is over, the system automatically chooses date and time of the auction, and Platforms inform participants and procuring entities about it; procuring entities can no longer introduce changes into the tender announcement. Participants submit offers that are confidential.
+Once the clarification period is over, the system automatically chooses date and time of the auction, and Platforms inform participants and procuring entities about it; the latter can no longer introduce changes into the tender announcement. Participants submit offers that are confidential.
 
 Fields filled out by the user
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -161,7 +161,8 @@ Fields generated by the CDB automatically
    participant’s email address 
 
 :suppliers.identifier: 
-   identification scheme according to the IATI standard (for instance, for Moldova: MD-IDNO)
+   identification scheme according to :ref:`rst_codebooks`
+   (for instance, for Moldova: MD-IDNO)
 
 :suppliers.id: 
    Moldovan National Registry ID
@@ -179,10 +180,10 @@ Fields generated by the CDB automatically
    street name, building number and office number
 
 :suppliers.address.region: 
-   region
+   region according to :ref:`rst_codebooks`
 
 :suppliers.address.locality: 
-   town/city
+   town/city 
 
 :bids.value.currency: 
    currency
@@ -204,10 +205,10 @@ Fields filled out by User:
 Fields filled out automatically:
 
 :suppliers.address.locality:
-   City/Town/Village
+   city/town
 
 :bids.lotValues.value.currency:
-   Currency
+   currency (MDL,EUR,USD)
 
 :bids.lotValues.value.valueAddedTaxIncluded:
    false (VAT not included)
@@ -216,11 +217,11 @@ Fields filled out automatically:
 Auction
 -------
 
-Platform receives the links to two pages from the CDB - an individual link of the auction participant which has to be sent to this participant only and no one else and a public link to the auction which is published on platforms and official website.
+Platform receives the links to two pages from the CDB - an individual link of the auction participant which has to be sent to this participant only and no one else and a public link to the auction which is published on platforms and the official website.
 
 Auction participant accesses his personal page via this link and participates in the auction. Auction is held centrally, with the help of separate CDB components.
 
-Peculiarities of a multi-lot procurement
+Features of a multi-lot procurement
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Auctions are held for each lot separately. Information disclosure on participants occurs once the last auction in the procurement is completed.
 
@@ -231,12 +232,11 @@ During the auction
 
               Do not accept a bid higher than the estimated value of the contract!
 
-Date and time of the auction is determined by the CDB automatically, once the clarification period is completed. Platforms have to inform their users about the upcoming auction beginning date. If no participant is  registered after the end of the clarification period, the system automatically changes the procurement status to ‘unsuccessful’. If only one participant submitted the offer, the System then automatically registers the participant as a candidate, and procurement procedure then moves to ‘active: qualification’ status.
+Date and time of the auction are determined by the CDB automatically, once the clarification period is over. Platforms have to inform their users about the upcoming auction beginning date. If no participant is  registered after the end of the clarification period, the system automatically changes the procurement status to ‘unsuccessful’. If only one participant submitted the offer, the System then automatically registers the participant as a candidate, and procurement procedure then moves to ‘active:qualification’ status.
 
 If more than one participant is registered, the System activates the single ‘Auction’ module. Those participants who registered their offer for this particular procurement can participate in the auction. All the other users, including the procuring entity of this procurement process, can observe how the auction develops via a public link that is published on platforms and the official website.
 
-
-Once the Auction module begins, the Platforms are granted access to the auction Internet page for participant authorization and access provision to the auction. By clicking on the link, the Participant agrees to its conditions, after which he receives access to the auction. The following is on the auction page:
+Once the Auction begins, the Platforms are granted access to the auction Internet page for participant authorization and access provision to the auction. By clicking on the link, the Participant agrees to its conditions, after which he receives access to the auction. The following is on the auction page:
 
 * Auction number
 * Procurement objects
@@ -307,7 +307,7 @@ Before the contact’s status is changed to **active**, Procuring entity should 
 
 CA changes the agreement to signed status (active), upon which CA has to change tender to complete status by a separate action.
 
-At this point, the process is completed, and no further actions in the documents are required.
+At this point, the process is completed, and no further actions are required.
 
 
 

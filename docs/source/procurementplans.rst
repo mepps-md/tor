@@ -6,7 +6,7 @@ Procurement plans
 A brief overview
 ----------------
 
-Upon the approval of budget / business plan of an organization, this structured data is entered into the system. The record on the planned procedure in the annual procurement plan is elaborated until the third digit of the CPV. Gradually, this data is further elaborated by the CA by introducing changes into the annual plan where the procurement item details are indicated.
+Upon the approval of budget / business plan of an organization, this structured data is entered into the system. The record on the planned procedure in the annual procurement plan is elaborated until the third CPV digit. Gradually, this data is further elaborated by the CA by introducing changes into the annual plan where the procurement item details are indicated.
 
 Plan creation
 ~~~~~~~~~~~~~
@@ -49,10 +49,10 @@ Plan creation
     procurement item name
 
 :budget.source of financing.id: 
-    source of finance according to Codebooks and classifiers
+    source of finance 
 
 :budget.source of financing.name: 
-    source of finance title according to Codebooks and classifiers
+    source of finance title 
 
 :budget.notes: 
     remarks
@@ -65,7 +65,7 @@ Plan creation
        Should be hidden in the platform’s interface
 
 :budget.currency: 
-    currency according to List of the currencies used
+    currency according to :ref:`rst_codebooks`
 
 :budget.amountNet: 
     expected price without VAT
@@ -77,7 +77,7 @@ Plan creation
     procedure type
 
 :classification.scheme: 
-    CPV according to Common Procurement Vocabulary (CPV)
+    CPV according to :ref:`rst_codebooks`
 
 :classification.id: 
     CPV classification code which defines the procurement item 
@@ -91,7 +91,7 @@ Plan creation
 :planID: 
     procurement plan identificator, required
     
-Data entered by the CA introducing procurement plan details
+Data entered by CA introducing procurement plan details
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 :items.description: 
@@ -101,16 +101,16 @@ Data entered by the CA introducing procurement plan details
     amount of goods/the volume of work assignments or services provision, required
 
 :item.unit.code: 
-    measurement unit code according to List of the measurement units used, required
+    measurement unit code according to :ref:`rst_codebooks`, required
 
 :items.unit.name: 
-    measurement unit name according to List of the measurement units used, required
+    measurement unit name according to :ref:`rst_codebooks`, required
 
 :items.deliveryDate.endDate: 
     end time of goods delivery / work assignments execution / services provision, required
 
 :items.classification.scheme: 
-    CPV according to Common Procurement Vocabulary (CPV), required
+    CPV according to :ref:`rst_codebooks`, required
 
 :items.classification.id: 
     CPV classification code which defines the procurement item, required
@@ -146,13 +146,13 @@ Validations executed on the CDB level
     filled out
 
 :classification.scheme: 
-    filled out according to Codebooks and classifiers
+    filled out according to :ref:`rst_codebooks`
 
 :classification.id: 
-    filled out according to Codebooks and classifiers
+    filled out according to :ref:`rst_codebooks`
 
 :classification.description: 
-    filled out according to Codebooks and classifiers
+    filled out according to :ref:`rst_codebooks`
 
 :items.description: 
     filled out if there is at least one item
@@ -161,22 +161,22 @@ Validations executed on the CDB level
     filled out if there is at least one item
 
 :items.unit.code: 
-    filled out according to  Codebooks and classifiers if there is at least one item
+    filled out according to  :ref:`rst_codebooks` if there is at least one item
 
 :items.unit.name:  
-    filled out according to Codebooks and classifiers if there is at least one item
+    filled out according to :ref:`rst_codebooks` if there is at least one item
 
 :items.deliveryDate.endDate: 
     filled out if there is at least one item
 
 :items.classification.scheme: 
-    filled out according to Codebooks and classifiers if there is at least one item
+    filled out according to :ref:`rst_codebooks` if there is at least one item
 
 :items.classification.id: 
-    filled out according to Codebooks and classifiers if there is at least one item
+    filled out according to :ref:`rst_codebooks` if there is at least one item
 
 :items.classification.description: 
-    filled out according to Codebooks and classifiers if there is at least one item
+    filled out according to :ref:`rst_codebooks` if there is at least one item
 
 Introducing changes into the plan
 ---------------------------------

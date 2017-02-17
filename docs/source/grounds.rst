@@ -11,7 +11,7 @@ In compliance to the Law on Public Procurement no. 131 (PPL no. 131) dated 3 Jul
 
 #. The total cost of each offer is 15% higher than the estimated value of goods, services, or work assignments;
 
-#. The total cost of each offer is 15% lower than the estimated value of goods, services, or work assignment;
+#. The total cost of each offer is 15% lower than the estimated value of goods, services, or work assignments;
 
 #. No candidate stands up to the qualification requirements set out in the tender documentation;
 

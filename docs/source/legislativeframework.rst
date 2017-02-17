@@ -4,7 +4,7 @@ Legislative framework
 =====================
 
 
-Provisions of the Republic of Moldova – European Union Association Agreement (AA), which provides the roadmap to a greater European integration; After joining World Trade Organization Government Procurement Agreement (WTO GPA), **on 14 July 2016**, the Republic of Moldova officially became the 47th WTO GPA Party.
+Provisions of the Republic of Moldova – European Union Association Agreement (AA), which provides the roadmap to a greater European integration; after joining World Trade Organization Government Procurement Agreement (WTO GPA) on **14 July 2016** the Republic of Moldova officially became the 47th WTO GPA Party.
 
 `Law on Public Procurement no. 131 (PPL no. 131) dated 3 July 2015, amended on 3 July and 3 October 2016 <http://lex.justice.md/viewdoc.php?action=view&view=doc&id=360122&lang=2>`_ (in the Russian language)
 

@@ -15,7 +15,8 @@ Having entered the information regarding the procedure, CA enters information on
 Publication of a decision on intent to conclude an agreement 
 ------------------------------------------------------------
 
-CA publishes the concluded agreement and enters information regarding the EO immediately (awards:status:active).
+CA publishes the concluded agreement and enters information regarding the EO immediately 
+(awards:status:active).
 
 This information is published on the official website of the Authorized Body along with the platform’s website as a report on the concluded agreement. It is not possible to submit a complaint at this point.
 
@@ -31,19 +32,20 @@ CA enters the following information on the procurement
    procurement’s nomenclature description
 
 :items.classification.scheme: 
-   CPV
+   CPV according to :ref:`rst_codebooks`
 
 :items.classification.id: 
-   CPV code which describes the procurement item
+   CPV code which describes the procurement item according to :ref:`rst_codebooks`
 
 :items.classification.description: 
-   classification code title in Romanian
+   classification code title in Romanian according to :ref:`rst_codebooks`
 
 :items.unit.code: 
    measurement unit code  (has to go in line with the  UN/CEFACT standard, for example - KGM)
+   according to :ref:`rst_codebooks`
 
 :items.unit.name: 
-   measurement unit name in Romanian
+   measurement unit name in Romanian according to :ref:`rst_codebooks`
 
 :items.quantity: 
    quantity
@@ -188,7 +190,7 @@ Uploading the agreement, CA enters the following information (the fields automat
    agreement end date
 
 :Contracts.value.currency: 
-   currency (by default, the same as value.currency), required
+   currency (by default, the same as value.currency) according to :ref:`rst_codebooks`, required
 
 :Contracts.value.amount: 
    agreement value (awards.value.amount), required
@@ -227,7 +229,7 @@ Uploading the agreement, CA enters the following information (the fields automat
    procurement item name, required
 
 :Contracts.items. classification.scheme: 
-   CPV according to Common Procurement Vocabulary (CPV), required
+   CPV according to :ref:`rst_codebooks`, required
 
 :Contracts.items. classification.description: 
    CPV classification code which defines the procurement item, required
@@ -245,7 +247,7 @@ Uploading the agreement, CA enters the following information (the fields automat
    street, required
 
 :Contracts.items.deliveryAddress.region: 
-   region, required
+   region according to :ref:`rst_codebooks`, required
 
 :Contracts.items.deliveryAddress.locality: 
    residence place, required
@@ -254,10 +256,10 @@ Uploading the agreement, CA enters the following information (the fields automat
    postal code, required
 
 :Contracts.items.unit.code: 
-   measurement unit code, required
+   measurement unit code according to :ref:`rst_codebooks`, required
 
 :Contracts.items.unit.name: 
-   measurement unit, required
+   measurement unit according to :ref:`rst_codebooks`, required
 
 :Contracts.items.quantity: 
    amount of goods / volume of work assignments, required
@@ -272,7 +274,7 @@ Uploading the agreement, CA enters the following information (the fields automat
    winner’s e-mail, required
 
 :Contracts.suppliers. identifier.scheme: 
-   international identification scheme, required
+   international identification scheme according to :ref:`rst_codebooks`, required
 
 :Contracts.suppliers.identifier.id:
    required
@@ -290,10 +292,10 @@ Uploading the agreement, CA enters the following information (the fields automat
    country (of winner’s location), required
 
 :Contracts.suppliers.address.streetAddress: 
-   street (of winner’s location), required
+   street (of winner’s location) , required
 
 :Contracts.suppliers.address.region: 
-   region (of winner’s location), required
+   region (of winner’s location) according to :ref:`rst_codebooks`, required
 
 :Contracts.suppliers.address.locality: 
    place (of winner’s location), required

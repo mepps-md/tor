@@ -11,11 +11,12 @@ Below Threshold Procurements
 ----------------------------
 
 Below Threshold Appeals are sent to the Review Commission,  a body established by non-governmental organizations that are legally entitled to issue only recommendations to the CA.
+
 If simplified, the procedure looks like this: 
 
 In addition to the existing possibility to ask a question regarding a procurement, every registered user (but CAs) can also address the CA with a demand to eliminate a violation.
 
-CA has three days to review a Demand and make a decision concerning it. Within this period of time, CA shall reply to the Demand and (provided it is satisfied) introduce respective changes into procurement requirement or qualification decision. Providing an explanation regarding the decision is obligatory, simply selecting ‘satisfied’, ‘rejected’, ‘unsatisfied’ status is not enough.
+CA has three days to review a Demand and make a decision concerning it. Within this period of time, CA shall reply to the Demand and (provided it is satisfied) introduce respective changes into procurement requirements or qualification decision. Providing an explanation regarding the decision is obligatory, simply selecting ‘satisfied’, ‘rejected’, ‘unsatisfied’ status is not enough.
 
 Complainant shall evaluate CA’s decision. If he/she is satisfied with the decision, the issue is resolved, and the process is completed. If he/she is not, and provided CA has not reviewed the Demand (within a 3-day period), it automatically becomes a Complaint which goes to the Review Commission. Provided complainant has not reacted to CA’s decision, the issue is considered resolved.
 
@@ -29,7 +30,7 @@ Detailed overview of the process
 Demand to remove violations
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-In below threshold procurement, a claim (complaints:type:claim) is submitted during clarification period and CA’s decision upon qualification. Awards:complaints can be submitted within 2 working days. The claim is enough to reinforce evaluation on below threshold level again (awards:complaints:type:claim, status:claim), upon which CA can cancel its decision concerning the respective participant (as to whom the claim was submitted), change it to cancelled. Afterwards, this award, and the next upon it (upon which the decision has been reached), change to cancelled status, and new awards (pending) are generated to be evaluated. Once the evaluation was carried out again, CA can react to the demand similarly as it is during the clarification period, with indication of decision (‘Satisfied’, ‘Not satisfied’, or ‘Declined’ - resolved, declined, invalid).
+In below threshold procurement, a claim (*complaints:type:claim*) is submitted during clarification period and CA’s decision upon qualification. Awards:complaints can be submitted within 2 working days. The claim is enough to reinforce evaluation on below threshold level again (*awards:complaints:type:claim*, *status:claim*), upon which CA can cancel its decision concerning the respective participant (as to whom the claim was submitted), change it to cancelled. Afterwards, this award, and the next upon it (upon which the decision has been reached), change to cancelled status, and new awards (pending) are generated to be evaluated. Once the evaluation was carried out again, CA can react to the demand similarly as it is during the clarification period, with indication of decision (‘Satisfied’, ‘Not satisfied’, or ‘Declined’ - resolved, declined, invalid).
 
 The information about the user who submitted the complaint is confidential.
 
@@ -56,7 +57,7 @@ Fields filled out automatically:
    postal code
 
 :author.address.region: 
-   region
+   region according to :ref:`rst_codebooks`
 
 :author.address.streetAddress: 
    street
@@ -65,10 +66,10 @@ Fields filled out automatically:
    participant’s full legal name
    
 :author.identifier.scheme: 
-   identification scheme according to the IATI standard
+   identification scheme according to :ref:`rst_codebooks`
 
 :author.identifier.id: 
-   code in the scheme provided
+   code in the scheme provided according to :ref:`rst_codebooks`
 
 :author.identifier.url: 
    website address
@@ -145,10 +146,10 @@ Complaint on CA’s decision can be submitted only by a tenderer no later than 1
 
 The procedure is not blocked. If complaint review body has not registered its decision at all (status:pending) or registered its decision to accept the complaint (status:accepted), the procedure is blocked.
 
-Blocking the procedure, CA loses a possibility to publish an agreement with the winner, further actions concerning  the qualification of participants are blocked. A possibility to carry out evaluation again appears only if the complaint has been satisfied by the Complaint review body (status:satisfied). If it is satisfied, CA can carry out qualification from the very beginning, cancelling his decision concerning the corresponding award. Upo cancellation, all awards concerning the which a decision has been reached, change to status cancelled, to evaluate again new awards with pending status are generated. Afterwards, CA reviews it again and submits a report on his action, changing the complaint to resolved status.
-Procedure deblocking (submitting offers stage) occurs only upon Review Commission’s publication of decision regarding the complaint and CA’s reaction to it. Procedure deblocking (qualification stage) occurs only after the decision of the complaint body has been published and repeated qualification along with CA making the respective decision (fields tendererAction, resolution).
+Blocking the procedure, CA loses a possibility to publish an agreement with the winner, further actions concerning  the qualification of participants are blocked. A possibility to carry out evaluation again appears only if the complaint has been satisfied by the Complaint review body (status:satisfied). If it is satisfied, CA can carry out qualification from the very beginning, cancelling his decision concerning the corresponding award. Upo cancellation, all awards concerning the which a decision has been reached, change to status cancelled, to evaluate again new awards with pending status are generated. Afterwards, CA reviews it again and submits a report on his/her action, changing the complaint to resolved status.
+Procedure de-blocking (submitting offers stage) occurs only upon Review Commission’s publication of decision regarding the complaint and CA’s reaction to it. Procedure deblocking (qualification stage) occurs only after the decision of the complaint body has been published and repeated qualification along with CA making the respective decision (fields *tendererAction*, *resolution*).
 
-Procedure deblocking is ensured by complaint’s change to the terminal status resolved. Also, claims on CA’s decision can be submitted, though they do not influence the workflow, even if CA ignores it. Further escalation of such claims is not possible, they exist only for the sake of providing additional information, because the offer has been declined or determined as a winning one. CA replies to such requirements similarly as to the ones concerning the procurement requirements, indicating his answer and changing the status.
+Procedure de-blocking is ensured by complaint’s change to the terminal status *resolved*. Also, claims on CA’s decision can be submitted, though they do not influence the workflow, even if CA ignores it. Further escalation of such claims is not possible, they exist only for the sake of providing additional information, because the offer has been declined or determined as a winning one. CA replies to such requirements similarly as to the ones concerning the procurement requirements, indicating his answer and changing the status.
 
 Complaint on CA’s decision
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
